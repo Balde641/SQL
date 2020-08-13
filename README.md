@@ -1,4 +1,6 @@
 # SQL
+4. Tehtävä: SELECT * FROM Kurssisuoritus
+
 
 12. SELECT Kurssi.nimi AS kurssi, Tehtävä.nimi AS tehtävä 
 FROM Kurssi, Kurssitehtävä, Tehtävä, Tehtäväsuoritus, Opiskelija 
