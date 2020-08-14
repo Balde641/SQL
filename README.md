@@ -11,7 +11,9 @@
 
 9. Tehtävä: SELECT * FROM Opiskelija WHERE nimi NOT LIKE '%a%'               #ei ole oikein vielä
 
-10. Tehtävä:
+10. Tehtävä: SELECT nimi, päivämäärä, arvosana
+ FROM Opiskelija, Kurssisuoritus
+ WHERE Opiskelija.opiskelijanumero = Kurssisuoritus.opiskelija
 
 11. Tehtävä:
 
