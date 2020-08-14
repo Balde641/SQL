@@ -1,6 +1,16 @@
 # SQL
 4. Tehtävä: SELECT * FROM Kurssisuoritus
 
+5. Tehtävä: SELECT kurssi FROM Kurssisuoritus
+
+6. Tehtävä: SELECT DISTINCT kurssi FROM Kurssisuoritus
+
+7. Tehtävä: SELECT * FROM Opiskelija WHERE nimi = 'Anna'
+
+8. Tehtävä:
+
+9. Tehtävä: SELECT * FROM Opiskelija WHERE nimi NOT LIKE '%a%'     ei ole oikein vielä
+
 
 12. SELECT Kurssi.nimi AS kurssi, Tehtävä.nimi AS tehtävä 
 FROM Kurssi, Kurssitehtävä, Tehtävä, Tehtäväsuoritus, Opiskelija 
