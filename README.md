@@ -15,7 +15,7 @@
  FROM Opiskelija, Kurssisuoritus
  WHERE Opiskelija.opiskelijanumero = Kurssisuoritus.opiskelija
 
-11. Tehtävä: SELECT DISTINCT nimi, päivämäärä, arvosana FROM Opiskelija, Kurssisuoritus
+11. Tehtävä: SELECT DISTINCT nimi, päivämäärä, arvosana FROM Opiskelija, Kurssisuoritus    #ei ole oikein vielä
 
 
 12. Tehtävä: SELECT Kurssi.nimi AS kurssi, Tehtävä.nimi AS tehtävä 
