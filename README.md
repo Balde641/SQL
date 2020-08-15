@@ -27,7 +27,10 @@ AND Tehtäväsuoritus.opiskelija = Opiakelija.opiskelijanumero
 AND Opiakelija.nimi = 'Anna'
  
 
-13. Tehtävä: SELECT Kurssi.nimi AS kurssi, Tehtävä.nimi AS tehtävä FROM Kurssi,Kurssitehtävä, Opiskelija, Kurssisuoritus
-WHERE Opiskelija.nimi = 'Anna'
-AND Opiskelija,opiskelijanumero = Kurssisuoritus.opiskelija
-AND Kurssi, kursstunnus=
+13. Tehtävä: SELECT Kurssi.nimi AS Kurssi, Tehtävä.nimi AS Tehtävä 
+FROM Kurssi, Kurssitehtävä, Tehtävä, Tehtäväsuoritus, Opiskelija
+WHERE Kurssi.kurssitunnus = Kurssitehtävä.kurssi
+AND Tehtävä.tunnus = Kurssitehtävä.tehtävä
+AND Tehtäväsuoritus.tehtävä = Kurssitehtävä.tunnus
+AND Tehtäväsuoritus.opiskelija = Opiskelija.opiskelijanumero
+AND Opiskelija.nimi = 'Anna'
