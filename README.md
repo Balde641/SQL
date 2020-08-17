@@ -81,8 +81,28 @@ PRAGMA TABLE_INFO(Kurssi4)
 23. tehtävä: CREATE TABLE Kurssi5 (kurssitunnus, nimi, kuvaus)
 
 24. tehtävä:
+PRAGMA foreign_keys = ON;
+
+CREATE TABLE Kurssi6 (
+    kurssitunnus integer PRIMARY KEY,
+    nimi varchar(200) NOT NULL,
+    kuvaus varchar(3000)
+);
+
+INSERT INTO Kurssi (nimi) VALUES ('Ohpe');
+INSERT INTO Kurssi (nimi) VALUES ('Tikape');
 
 25. tehtävä:
+PRAGMA foreign_keys = ON;
+
+CREATE TABLE Kurssi7 (
+    kurssitunnus integer PRIMARY KEY,
+    nimi varchar(200) NOT NULL,
+    kuvaus varchar(3000)
+);
+
+INSERT INTO Kurssi (nimi) VALUES ('Ohpe');
+INSERT INTO Kurssi (nimi) VALUES ('Tikape');
 
 26. tehtävä: ALTER TABLE -käskyä käytetään olemassa olevan taulukon sarakkeiden lisäämiseen, poistamiseen tai muokkaamiseen.
 
