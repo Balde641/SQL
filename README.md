@@ -63,15 +63,22 @@ SELECT k.nimi AS kurssi, COUNT(ks.kurssi) as lukumäärä FROM Kurssi k LEFT JOI
 
 18. tehtävä: CREATE TABLE Kurssi2(kurssitunnus, nimi, kuvaus)  
 
-19. tehtävä:
+19. tehtävä: 
+INSERT INTO Kurssi (kurssitunnus, nimi, kuvaus)
+   VALUES ("12345", "SQL-kielen perusteet", "SELECT 'Hei maailma'.")
 
 20. tehtävä:
+CREATE TABLE Kurssi3(tehtävä, kurssitunnus);
+PRAGMA TABLE_INFO(tehtävä)
 
 21. tehtävä:
+CREATE TABLE Kurssi4 (kurssitunnus, nimi, kuvaus)
+tarkistus:
+PRAGMA TABLE_INFO(Kurssi4)
 
-22. tehtävä:
+22. tehtävä: SELECT * FROM Opiskelija
 
-23. tehtävä:
+23. tehtävä: CREATE TABLE Kurssi5 (kurssitunnus, nimi, kuvaus)
 
 24. tehtävä:
 
