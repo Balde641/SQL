@@ -15,7 +15,7 @@
  FROM Opiskelija, Kurssisuoritus
  WHERE Opiskelija.opiskelijanumero = Kurssisuoritus.opiskelija
 
-11. Tehtävä: SELECT DISTINCT nimi, päivämäärä, arvosana FROM Opiskelija, Kurssisuoritus    #ei ole oikein vielä
+11. Tehtävä: SELECT DISTINCT nimi, päivämäärä, arvosana FROM Opiskelija, Kurssisuoritus WHERE Opiskelija.opiskelijanumero = Kurssisuoritus.opiskelija
 
 
 12. Tehtävä: SELECT Kurssi.nimi AS kurssi, Tehtävä.nimi AS tehtävä 
@@ -54,14 +54,14 @@ SELECT nimi FROM Kurssi k
     
 16. tehtävä:
 SELECT k.nimi AS kurssi, COUNT(kt.tunnus) lukumäärä FROM Kurssi k, Kurssitehtävä kt
-    WHERE k.kurssitunnus = kt.kurssi GROUP BY k.nimi                                #ei oikein vielä
+    WHERE k.kurssitunnus = kt.kurssi GROUP BY k.nimi                                        #ei oikein vielä
 
 
 17. tehtävä:
 SELECT k.nimi AS kurssi, COUNT(ks.kurssi) as lukumäärä FROM Kurssi k LEFT JOIN Kurssisuoritus ks
     ON k.kurssitunnus = ks.kurssi GROUP BY k.nimi
 
-18. tehtävä:
+18. tehtävä: CREATE TABLE Kurssi2(kurssitunnus, nimi, kuvaus)  
 
 19. tehtävä:
 
@@ -77,7 +77,9 @@ SELECT k.nimi AS kurssi, COUNT(ks.kurssi) as lukumäärä FROM Kurssi k LEFT JOI
 
 25. tehtävä:
 
-26. tehtävä:
+26. tehtävä: ALTER TABLE -käskyä käytetään olemassa olevan taulukon sarakkeiden lisäämiseen, poistamiseen tai muokkaamiseen.
+
+ALTER TABLE -käskyä käytetään myös lisäämään ja pudottamaan olemassa olevan taulukon erilaisia rajoituksia.
 
 
 
