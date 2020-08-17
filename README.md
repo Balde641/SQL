@@ -9,7 +9,7 @@
 
 8. Tehtävä:
 
-9. Tehtävä: SELECT * FROM Opiskelija WHERE nimi NOT LIKE '%a%'               #ei ole oikein vielä
+9. Tehtävä: SELECT pääaine FROM Opiskelija WHERE pääaine NOT LIKE '%tiede%'
 
 10. Tehtävä: SELECT nimi, päivämäärä, arvosana
  FROM Opiskelija, Kurssisuoritus
@@ -57,26 +57,26 @@ SELECT k.nimi AS kurssi, COUNT(kt.tunnus) lukumäärä FROM Kurssi k, Kurssiteht
     WHERE k.kurssitunnus = kt.kurssi GROUP BY k.nimi                                #ei oikein vielä
 
 
-
-
 17. tehtävä:
-
-
+SELECT k.nimi AS kurssi, COUNT(ks.kurssi) as lukumäärä FROM Kurssi k LEFT JOIN Kurssisuoritus ks
+    ON k.kurssitunnus = ks.kurssi GROUP BY k.nimi
 
 18. tehtävä:
 
-
-
-
 19. tehtävä:
 
-
 20. tehtävä:
+
 21. tehtävä:
+
 22. tehtävä:
+
 23. tehtävä:
+
 24. tehtävä:
+
 25. tehtävä:
+
 26. tehtävä:
 
 
