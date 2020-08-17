@@ -48,3 +48,8 @@ Gandhi	      Keksi tehtävä
 Matti	       Keksi tehtävä
 Anna	        Keksi tehtävä
 Pihla	       Keksi tehtävä
+
+15. tehtävä:
+SELECT nimi FROM Kurssi k
+    WHERE k.kurssitunnus
+        NOT IN (SELECT kurssi FROM Kurssitehtävä)
