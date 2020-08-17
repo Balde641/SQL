@@ -53,3 +53,12 @@ Pihla	       Keksi tehtävä
 SELECT nimi FROM Kurssi k
     WHERE k.kurssitunnus
         NOT IN (SELECT kurssi FROM Kurssitehtävä)
+        
+        
+Toinen vaihtoehtoa 15. tehtävävlle:
+SELECT nimi FROM Kurssi k
+    LEFT JOIN Kurssitehtävä t
+    ON k.kurssitunnus = t.kurssi
+    WHERE t.tunnus IS NULL
+    
+    
