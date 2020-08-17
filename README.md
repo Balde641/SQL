@@ -34,3 +34,17 @@ AND Tehtävä.tunnus = Kurssitehtävä.tehtävä
 AND Tehtäväsuoritus.tehtävä = Kurssitehtävä.tunnus
 AND Tehtäväsuoritus.opiskelija = Opiskelija.opiskelijanumero
 AND Opiskelija.nimi = 'Anna'
+
+14. Tehtävä: 
+Tehtävä
+Onko tässä rekursio?
+Keksi tehtävä
+Koetus
+
+
+Opiskelija	  Tehtävä
+Pihla	       Onko tässä rekursio?
+Gandhi	      Keksi tehtävä
+Matti	       Keksi tehtävä
+Anna	        Keksi tehtävä
+Pihla	       Keksi tehtävä
