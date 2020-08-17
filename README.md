@@ -36,18 +36,9 @@ AND Tehtäväsuoritus.opiskelija = Opiskelija.opiskelijanumero
 AND Opiskelija.nimi = 'Anna'
 
 14. Tehtävä: 
-Tehtävä
-Onko tässä rekursio?
-Keksi tehtävä
-Koetus
 
-
-Opiskelija	  Tehtävä
-Pihla	       Onko tässä rekursio?
-Gandhi	      Keksi tehtävä
-Matti	       Keksi tehtävä
-Anna	        Keksi tehtävä
-Pihla	       Keksi tehtävä
+Ensimmäisessä koodissa etsitään tehtävä nimikkeitä, toisessa eri oppilas nimiä joilla on annettu tehtävä, 
+koska oppilaita on enemmän kuin tehtäviä, vaikuttaa listan kokoon.
 
 15. tehtävä:
 SELECT nimi FROM Kurssi k
@@ -61,4 +52,34 @@ SELECT nimi FROM Kurssi k
     ON k.kurssitunnus = t.kurssi
     WHERE t.tunnus IS NULL
     
+16. tehtävä:
+SELECT k.nimi AS kurssi, COUNT(kt.tunnus) lukumäärä FROM Kurssi k, Kurssitehtävä kt
+    WHERE k.kurssitunnus = kt.kurssi GROUP BY k.nimi                                #ei oikein vielä
+
+
+
+
+17. tehtävä:
+
+
+
+18. tehtävä:
+
+
+
+
+19. tehtävä:
+
+
+20. tehtävä:
+21. tehtävä:
+22. tehtävä:
+23. tehtävä:
+24. tehtävä:
+25. tehtävä:
+26. tehtävä:
+
+
+
+
     
