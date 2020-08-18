@@ -1,4 +1,10 @@
 # SQL
+1. Tehtävä:
+
+2. Tehtävä:
+
+3. Tehtävä:
+
 4. Tehtävä: SELECT * FROM Kurssisuoritus
 
 5. Tehtävä: SELECT kurssi FROM Kurssisuoritus
