@@ -1,14 +1,18 @@
 # SQL
-1. 7. Porin ruotujakoinen tarkk'ampujapataljoona 
+1. Tehtävä:
+Matti
+7. Porin ruotujakoinen tarkk'ampujapataljoona 
 Tehtävä: Jääski - kastetut
 Lapsen etunimi: MATTI => Mathilda, Mats
+Maija
+Lapsen etunimi: MAIJA => Maijastina, Maja, Maijana
+
 Tuli monta eri vaihtoehtoa mistä voi tarkistaa.
-
-
+Maijan nimen etsimisen jälkeen on monia kaavioita, joista voit nähdä. Etsintätapa tekee Mattille saman.
 
 2. Tehtävä: Annoin sähköpostiosoitteeni ja syntymäpäiväni moniin eri palveluihin
 
-3. Tehtävä:
+3. Tehtävä: Palautettu draw.io kautta
 
 4. Tehtävä: SELECT * FROM Kurssisuoritus
 
