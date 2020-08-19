@@ -1,5 +1,10 @@
 # SQL
-1. Tehtävä:
+1. 7. Porin ruotujakoinen tarkk'ampujapataljoona 
+Tehtävä: Jääski - kastetut
+Lapsen etunimi: MATTI => Mathilda, Mats
+Tuli monta eri vaihtoehtoa mistä voi tarkistaa.
+
+
 
 2. Tehtävä: Annoin sähköpostiosoitteeni ja syntymäpäiväni moniin eri palveluihin
 
