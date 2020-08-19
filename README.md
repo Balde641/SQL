@@ -1,7 +1,7 @@
 # SQL
 1. Tehtävä:
 Matti
-7. Porin ruotujakoinen tarkk'ampujapataljoona 
+7.Porin ruotujakoinen tarkk'ampujapataljoona 
 Tehtävä: Jääski - kastetut
 Lapsen etunimi: MATTI => Mathilda, Mats
 Maija
@@ -67,9 +67,7 @@ SELECT nimi FROM Kurssi k
     ON k.kurssitunnus = t.kurssi
     WHERE t.tunnus IS NULL
     
-16. tehtävä:
-SELECT k.nimi AS kurssi, COUNT(kt.tunnus) lukumäärä FROM Kurssi k, Kurssitehtävä kt
-    WHERE k.kurssitunnus = kt.kurssi GROUP BY k.nimi                                        #ei oikein vielä
+16. tehtävä:  En onnistunut tekemään tätä       #ei oikein vielä
 
 
 17. tehtävä:
