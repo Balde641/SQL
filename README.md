@@ -1,7 +1,7 @@
 # SQL
 1. Tehtävä:
 
-2. Tehtävä:
+2. Tehtävä: Annoin sähköpostiosoitteeni ja syntymäpäiväni moniin eri palveluihin
 
 3. Tehtävä:
 
