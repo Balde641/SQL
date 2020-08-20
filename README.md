@@ -67,7 +67,10 @@ SELECT nimi FROM Kurssi k
     ON k.kurssitunnus = t.kurssi
     WHERE t.tunnus IS NULL
     
-16. tehtävä:  En onnistunut tekemään tätä       #ei oikein vielä
+16. tehtävä:  SELECT k.nimi AS kurssi, COUNT(ks.kurssi) AS lukumäärä 
+FROM Kurssi k, Kurssisuoritus ks
+WHERE ks.kurssi = k.kurssitunnus 
+GROUP BY k.nimi
 
 
 17. tehtävä:
